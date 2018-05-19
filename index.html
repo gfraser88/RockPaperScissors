@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Rock Paper Scissors</title>
+    <script src="rps.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body onload="displayScore_onload()">
+    <h1>Rock Paper Scissors.</h1>
+
+    <div id="score">
+    <p>You: <span id="userScore"></span></p>
+    <p>Me: <span id="compScore"></span></p>
+    </div>
+    
+    <div id="buttons">
+    <div id="rock">
+    <input type="button" value="Rock" id="btnRock" onclick="btnRock_onclick()">
+    </div>
+    <div id="paper">
+    <input type="button" value="Paper" id="btnPaper" onclick="btnPaper_onclick()">
+    </div>
+    <div id="scissors">
+    <input type="button" value="Scissors" id="btnRock" onclick="btnScissors_onclick()">
+    </div>
+    </div>
+
+    <div id="output">
+    <p id="txtOutput"></p>
+    </div>
+
+    <div id="clear">
+    <input type="button" value="Clear Score" id="btnClear" onclick="btnClear_onclick()">
+    </div>
+
+    
+
+</body>
+</html>
